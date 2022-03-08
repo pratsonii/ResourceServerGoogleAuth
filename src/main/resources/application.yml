@@ -1,6 +1,18 @@
+
+# ID_TOKEN in JWT format
+#spring:
+#  security:
+#    oauth2:
+#      resourceserver:
+#        jwt:
+#          jwk-set-uri: https://www.googleapis.com/oauth2/v3/certs
+        
+# It is called Opaque token or access token or Introspection token           
 spring:
   security:
     oauth2:
       resourceserver:
-        jwt:
-          jwk-set-uri: https://www.googleapis.com/oauth2/v3/certs
+        opaquetoken:
+          introspection-uri: 
+          client-id: 
+          client-secret: 
