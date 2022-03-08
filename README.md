@@ -7,7 +7,7 @@ https://accounts.google.com/.well-known/openid-configuration
 # Resource Server
 https://docs.spring.io/spring-security-oauth2-boot/docs/2.2.x-SNAPSHOT/reference/html/boot-features-security-oauth2-resource-server.html
 
-#Generate Google Auth token using Postman
+# Generate Google Auth token using Postman
 - Create ClientId and secret add redirect URL : https://www.getpostman.com/oauth2/callback
 - Go to postman > Authorization > Type = OAuth2.0
 - Grant type = Authorization Code
