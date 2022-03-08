@@ -23,3 +23,5 @@ Above steps will generate two tokens : Access token and Id token
 2) Id token can be verified by JWK (1st configuration in properties file).
 
 Either of above method can be used at a time.
+
+- Note : This will work with openID configuration of the clientId and clientSecret only.
