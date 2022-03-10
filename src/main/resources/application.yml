@@ -16,3 +16,7 @@ spring:
           introspection-uri: 
           client-id: 
           client-secret: 
+          
+logging:
+  level:
+    org.springframework.web.client.RestTemplate: DEBUG          
